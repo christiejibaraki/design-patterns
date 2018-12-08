@@ -14,7 +14,7 @@ Extends functionality by attaching additional responsibilities to an object dyna
 
 Decorators have the same supertype as the objects they decorate.
 One or more decorators can wrap an object.
-If the decorator has a the same supertype as the object it decorates, can pass around decorated object instead of original (wrapped) object.
+If the decorator has the same supertype as the object it decorates, can pass around decorated object instead of original (wrapped) object.
 Decorator adds its own behavior before and/or after delegating to the object it decorates.
 Objects can be decorated at any time, including dynamically at runtime, with multiple decorators
 
