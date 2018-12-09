@@ -18,6 +18,15 @@ If the decorator has the same supertype as the object it decorates, can pass aro
 Decorator adds its own behavior before and/or after delegating to the object it decorates.
 Objects can be decorated at any time, including dynamically at runtime, with multiple decorators
 
+#### Factory Pattern
+Factory patterns encapsulate object creation
+- Simple Factory
+Simple Factory is more of a programming idiom rather than an actual design pattern.
+
+- Factory Method Pattern
+Encapsulates object creation by letting subclasses decide what objects to create.
+Factory method handles object creation and encapsulates it in a subclass.
+This decouples client code in the superclass from the object creation code in the subclass.
 
 ## Principles
 - Encapsulate what varies
