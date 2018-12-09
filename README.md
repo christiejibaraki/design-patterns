@@ -23,11 +23,16 @@ Factory patterns encapsulate object creation
 - Simple Factory
 Simple Factory is more of a programming idiom rather than an actual design pattern.
 
-- Factory Method Pattern
+- Factory Method Pattern - object creation through inheritance
 Factory method handles object creation and encapsulates it in a subclass.
 Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 Lets a class defer instantiation to subclasses (i.e. subclasses decide what objects to create).
 This decouples client code in the superclass from the object creation code in the subclass.
+
+- Abstract Factory - object creation through object composition
+An abstract factory provides an interface for a family of products.
+From abstract factory, derive one or more concrete factories that produce the same products but with different implementations.
+Methods in abstract factory are often implemented as factory methods.
 
 
 ## Principles
