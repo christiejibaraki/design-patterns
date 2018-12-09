@@ -24,9 +24,11 @@ Factory patterns encapsulate object creation
 Simple Factory is more of a programming idiom rather than an actual design pattern.
 
 - Factory Method Pattern
-Encapsulates object creation by letting subclasses decide what objects to create.
 Factory method handles object creation and encapsulates it in a subclass.
+Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+Lets a class defer instantiation to subclasses (i.e. subclasses decide what objects to create).
 This decouples client code in the superclass from the object creation code in the subclass.
+
 
 ## Principles
 - Encapsulate what varies
@@ -34,3 +36,8 @@ This decouples client code in the superclass from the object creation code in th
 - Favor composition over inheritance
 - Classes should be open for extension, but closed for modification
 - Strive for loose coupling between objects that overlap
+- Depend on abstractions. Do not depend upon concrete classes (Dependency inversion principle)
+    - No variable should hold a reference to a concrete class
+    - No class should derive from a concrete class
+    - No method should override an implemented method of any of its base classes
+
