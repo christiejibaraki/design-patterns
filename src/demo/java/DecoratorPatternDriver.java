@@ -6,6 +6,11 @@ import java.io.*;
 
 public class DecoratorPatternDriver {
 
+    /***
+     * Extends functionality by attaching additional responsibilities to an object dynamically.
+     * Provides a flexible alternative to subclassing.
+     */
+
     public static void starbuzzDriver() {
         Beverage beverage = new Epresso();
         System.out.println(beverage.getDescription() + " $" + beverage.cost());
