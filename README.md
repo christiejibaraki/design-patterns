@@ -3,7 +3,7 @@ demos common oop design patterns and principles in java and python.
 
 ## Design Patterns
 #### Observer pattern (behavioral)
-Defines a one (Subect) to many (Observers) relationship between objects, such that when Subject changes state, all dependent Observers are notified and updated automatically.
+Defines a one (Subject) to many (Observers) relationship between objects, such that when Subject changes state, all dependent Observers are notified and updated automatically.
 
 Subject and Observer use interfaces. 
 Subject keeps track of objects implementing Observer, while observers register with and are notified by the Subject Interface (loose coupling). 
